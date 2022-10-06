@@ -93,13 +93,25 @@ nav{
 .about_me_conteiner text_1{
     padding-top: 22px;
 }
+.resume{
+    text-align: center;
+    background: url(../img/download.jpg) no-repeat 297px;
+    border: 2px solid #6d7682;
+    width: 110px;
+    margin: 0px auto;
+    border-radius: 5px;
+    padding: 5px;
+}
+.skill_list{
+    background: url(../img/BG_skills.jpg)no-repeat 100% 100%/ 886px 1667px;
+}
 .skill_item{
     width: 210px;
     text-align: center;
     color: #3f495a;
     font-size: 14px;
     padding: 40px;
-    float:left;
+    float: left;
 }
 .skill_list h2{
     font-size: 25px;
@@ -108,6 +120,7 @@ nav{
     margin-top: 108px;
     padding-bottom: 35px;
     font-weight: bold;
+    padding-top: 107px;
 }
 .skill_list hr{
     height: 4px;
@@ -116,10 +129,11 @@ nav{
     width: 80px;
     margin: 0px auto;
 }
-.skill_list{
+.skill_conteiner{
     width: 1100px;
     margin: 0px auto;
     height: 350px;
+    padding-left: 127px;
 }   
 .skill_item h3{
     font-size: 16px;
@@ -128,11 +142,276 @@ nav{
     padding-bottom: 15px;
     font-weight: bold;
 }
-.cases{
-    background: url(../img/case.jpg) no-repeat 100% 100%/ auto auto;
+.cases h2{
+    font-size: 25px;
+    color: #263244;
+    text-align: center;
+    margin-top: 108px;
+    padding-bottom: 35px;
+    font-weight: bold;
+}
+.cases hr{
+    height: 4px;
+    border: none;
+    background: #d17700;
+    width: 80px;
+    margin: 0px auto;
 }
 .cases h4{
-    padding-top: 36px; 
-    padding-bottom: 39px; 
     text-align: center;
+    color: #3f495a;
+    padding: 36px 0px 37px 0px;
+    font-size: 16px;
+}
+.cases_conteiner{
+    background: url(../img/bg_cases.jpg)no-repeat 1px / 100%;
+    height: 760px;
+    width: 1557px;
+    margin: 0px calc(auto - 388px);
+    padding: 630px 0px 0px 388px;   
+}
+.client_item{
+    color: #525a69;
+    padding-bottom: 15px;
+    
+}
+.client_item h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #384354;
+    padding-bottom: 10px;
+}
+.client_item a{
+    color: #525a69;
+}
+.client_item_conteiner{
+    float: left;
+    padding-right: 101px
+}
+.about_project{
+    line-height: 22px;
+    color: #3f495a;
+    font-size: 16px;
+}
+.about_project h3{
+    font-weight: bold;
+    font-size: 22px;
+}
+.visit_site{
+    background: url(../img/visit_site_border.jpg)no-repeat 388px;
+    padding: 13px 0px 0px 421px;
+    height: 44px;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.PriceList{
+    width: 887px;
+    margin: 0px auto;
+    padding-bottom: 153px;
+}
+.PriceList h2{
+    font-size: 25px;
+    color: #263244;
+    text-align: center;
+    margin-top: 108px;
+    padding-bottom: 35px;
+    font-weight: bold;
+    padding-top: 107px;
+}
+.calc_item{
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: bold;
+    padding-bottom: 65px;
+}
+.select_item{
+    display: block;
+    height: 50px;
+    width: 891px;
+}
+.PriceList>h3{
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.stats h2{
+    font-size: 25px;
+    color: #263244;
+    text-align: center;
+    margin-top: 108px;
+    padding-bottom: 35px;
+    font-weight: bold;
+    padding-top: 107px;
+}
+.stats hr{
+    height: 4px;
+    border: none;
+    background: #d17700;
+    width: 80px;
+    margin: 0px auto;
+}
+.stats_list{
+    height: 166px;
+    width: 1027px;
+    margin: 0px auto;
+    padding-top: 84px;
+    padding-left: 67px;
+}
+.stats_item{
+    float:left;
+    padding-right: 100px;
+    text-align: center;
+    color: #323e4f;
+    font-size: 13px;
+    font-weight: bold;
+}
+.stats_item h3{
+    font-size: 26px;
+    font-weight: bold;
+    color: #323e4f;
+    padding: 32px;
+}
+.stats{
+    background: url(../img/bg_stats.jpg) no-repeat -44px;
+    height: 500px;
+}
+.feedback h2{
+    font-size: 25px;
+    color: #263244;
+    text-align: center;
+    margin-top: 108px;
+    padding-bottom: 35px;
+    font-weight: bold;
+    padding-top: 104px;
+}
+.feedback hr{
+    height: 4px;
+    border: none;
+    background: #d17700;
+    width: 80px;
+    margin: 0px auto;
+}
+.feedback img{
+    margin: 0px auto;
+    display: block;
+    padding-top: 58px;
+    padding-bottom: 34px;
+}
+.feedback p{
+    width: 688px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 14px;
+    color: #3d4654;
+    line-height: 19px;
+    padding-bottom: 34px;
+}
+.feedback name{
+    
+}
+.contacts h2{
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 108px;
+    padding-bottom: 35px;
+    font-weight: bold;
+    padding-top: 105px;
+}
+.contacts{
+    background: url(../img/bg_contacts.jpg) no-repeat;
+    padding-bottom: 180px;
+}
+.contacts hr{
+    height: 4px;
+    border: none;
+    background: #d17700;
+    width: 80px;
+    margin: 0px auto;
+}
+.contacts>p{
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    padding-top: 32px;
+    padding-bottom: 45px;
+}
+.contacts_item_conteiner{
+    margin: 0px auto;
+    width: 799px;
+    padding-bottom: 97px;
+    padding-left: 123px;
+}
+.contacts_item{
+    text-align: center;
+    color: #ffffff;
+    float: left;
+    width: 224px;
+    padding-right: 108px;
+    padding-top: 15px;
+    font-size: 12px;
+}
+.contacts_item img{
+    padding-bottom: 13px;
+}
+.info_block p{
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-bottom: 44px;
+}
+.contacts input{
+    margin: 0px auto;
+}
+.name{
+    float: left;
+    display: block;
+    width: 352px;
+    height: 34px;
+}
+.mail{
+    display: block;
+    width: 352px;
+    height: 34px; 
+}
+.messege{
+    display: block;
+    margin: 0px auto;
+    width: 733px;
+    height: 94px;
+    margin-top: 14px;
+    margin-bottom: 45px;
+}
+.sent{
+    display: block;
+    height: 40px;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 0px 14px 0px 14px;
+    color: white;
+}
+.map{
+    padding-top: 180px;
+    background: url(../img/bg_map.jpg) no-repeat;
+    height: 356px;
+}
+.map p{
+    display: block;
+    padding-left: 50%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+footer{
+    width: 100%;
+    height: 96px;
+    background: #344051;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 48px;
 }
