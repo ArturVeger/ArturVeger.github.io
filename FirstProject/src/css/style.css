@@ -308,8 +308,9 @@ nav{
     line-height: 19px;
     padding-bottom: 34px;
 }
-.feedback name{
-    
+.feedback misha{
+    display: block;
+    margin: 0px auto;
 }
 .contacts h2{
     font-size: 25px;
@@ -367,20 +368,24 @@ nav{
     margin: 0px auto;
 }
 .name{
-    float: left;
-    display: block;
+    margin-right: 123px;
+    display: inline-block;
     width: 352px;
     height: 34px;
 }
 .mail{
-    display: block;
+    display: inline-block;
     width: 352px;
-    height: 34px; 
+    height: 34px;
+    margin-left: 29px;
+}
+.name_mail{
+    margin-left: calc(50% - 352px);
 }
 .messege{
     display: block;
     margin: 0px auto;
-    width: 733px;
+    width: 705px;
     height: 94px;
     margin-top: 14px;
     margin-bottom: 45px;
@@ -403,9 +408,11 @@ nav{
 }
 .map p{
     display: block;
-    padding-left: 50%;
+    margin: 0px auto;
     text-transform: uppercase;
     font-weight: bold;
+    background-color: white;
+    width: 62px;
 }
 footer{
     width: 100%;
